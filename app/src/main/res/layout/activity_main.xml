@@ -11,7 +11,7 @@
         android:id="@+id/textViewMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="68dp"
         android:text="@string/textViewMain"
         android:textColor="@android:color/darker_gray"
         android:textSize="@dimen/textSize"
@@ -24,25 +24,27 @@
         android:id="@+id/buttonMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fontFamily="@font/montserrat_subrayada_bold"
         android:text="@string/textButtonMain"
         android:textColor="@color/textButtonColor"
-        android:background="@color/black"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewMain"
-        app:layout_constraintVertical_bias="0.084" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMain"
+        app:layout_constraintVertical_bias="0.146" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:id="@+id/editTextMain"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
-        app:layout_constraintBottom_toTopOf="@+id/textViewMain"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginTop="128dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/white"
+        android:hint="@string/editTextTextMain"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMain"
+        tools:layout_editor_absoluteX="0dp" />
 
 
 </android.support.constraint.ConstraintLayout>

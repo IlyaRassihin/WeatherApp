@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">WeatherAPp</string>
-    <string name="textViewMain">Enter your city</string>
-    <string name="textButtonMain">Enter</string>
+    <string name="app_name">WeatherAppByIlya</string>
+    <string name="textViewMain">WeatherAppByRassihin</string>
+    <string name="textButtonMain">Know Weather</string>
+    <string name="editTextTextMain">Enter your city</string>
+    <string name="textViewSec">The Weather in your city</string>
 </resources>
